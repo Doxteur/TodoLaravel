@@ -1,0 +1,83 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+
+//Icons
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+a{
+    color: #fff;
+}
+.navbar-laravel {
+ background-color: #fff;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.navbar-brand{
+    padding-left: 1rem;
+}
+body{
+ padding-top: 3rem;
+}
+form.add{
+ padding-bottom: 10px;
+}
+.pull-right{
+ float: right;
+}
+.action > .btn{
+ padding: 1px 7px 1px;
+}
+.oi{
+ font-size: small;
+}
+
+.icons {
+    
+    zoom: 1.3;
+    position: relative;
+    top: -25px;
+}
+.hidden{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.sidebarBC{
+    background-color: #343A40;
+}
+
+#sidebar{
+    font-weight: bold;
+}
+.inputClear{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    width: 100%;    
+    height: 100%;
+}
+.inputClear:focus{
+    border-bottom: 1px solid black;
+}
+#formUpdate{
+    height: 100%;
+}
+.important{
+    background-color: #FFCCCB;
+}
+
+.terminer{
+    background-color: #D9ECDB !important;
+}
+.importantIcon{
+    position: absolute;
+    left: 5px;
+}
